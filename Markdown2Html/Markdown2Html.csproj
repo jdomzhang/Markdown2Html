@@ -49,6 +49,7 @@
     <Compile Include="Converter.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="FileWriter.cs" />
+    <Compile Include="PathHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

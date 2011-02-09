@@ -44,6 +44,7 @@
     <Compile Include="ConverterTest.cs" />
     <Compile Include="FileReaderTest.cs" />
     <Compile Include="FileWriterTest.cs" />
+    <Compile Include="PathHelperTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

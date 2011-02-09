@@ -20,7 +20,7 @@ namespace Markdown2Html
 
         private static string ReadTextFileFromDisk(string fileName)
         {
-            return File.ReadAllText(fileName);
+            return File.ReadAllText(fileName, Encoding.UTF8);
         }
     }
 }

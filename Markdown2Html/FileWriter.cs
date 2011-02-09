@@ -22,7 +22,9 @@ namespace Markdown2Html
 
         private static void WriteToDisk(string content, string fileName)
         {
-            File.WriteAllText(fileName, content);
+            PathHelper.CreateFolderIfNotExisting(fileName);
+
+            File.WriteAllText(fileName, content, Encoding.UTF8);
         }
     }
 }
