@@ -1,0 +1,15 @@
+﻿*resharper.user
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.sln.cache
+_ReSharper.*/
+*.user
+Server/Data/
+/tool/ravendb/Server/Data/
+src/lint.db
+tool/ravendb/Server/InstallUtil.InstallLog
+tool/ravendb/Server/Raven.Server.InstallLog
+tool/ravendb/Server/Raven.Server.InstallState
